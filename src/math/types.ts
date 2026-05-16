@@ -10,4 +10,4 @@ export type Decimal = Big;
 /**
  * 接受任何可以轉換為數字的輸入。
  */
-export type Numeric = string | number | Big;
+export type Numeric = string | number | Decimal;
